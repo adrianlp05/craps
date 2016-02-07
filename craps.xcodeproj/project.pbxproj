@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87BD83E1C67A66E001E347C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BD83D1C67A66E001E347C /* AppDelegate.swift */; };
+		D87BD8401C67A66E001E347C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BD83F1C67A66E001E347C /* ViewController.swift */; };
+		D87BD8431C67A66E001E347C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87BD8411C67A66E001E347C /* Main.storyboard */; };
+		D87BD8461C67A66E001E347C /* craps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D87BD8441C67A66E001E347C /* craps.xcdatamodeld */; };
+		D87BD8481C67A66E001E347C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87BD8471C67A66E001E347C /* Assets.xcassets */; };
+		D87BD84B1C67A66E001E347C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87BD8491C67A66E001E347C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D87BD83A1C67A66E001E347C /* craps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87BD83D1C67A66E001E347C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D87BD83F1C67A66E001E347C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D87BD8421C67A66E001E347C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D87BD8451C67A66E001E347C /* craps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = craps.xcdatamodel; sourceTree = "<group>"; };
+		D87BD8471C67A66E001E347C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D87BD84A1C67A66E001E347C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D87BD84C1C67A66E001E347C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87BD8371C67A66E001E347C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87BD8311C67A66D001E347C = {
+			isa = PBXGroup;
+			children = (
+				D87BD83C1C67A66E001E347C /* craps */,
+				D87BD83B1C67A66E001E347C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87BD83B1C67A66E001E347C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87BD83A1C67A66E001E347C /* craps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87BD83C1C67A66E001E347C /* craps */ = {
+			isa = PBXGroup;
+			children = (
+				D87BD83D1C67A66E001E347C /* AppDelegate.swift */,
+				D87BD83F1C67A66E001E347C /* ViewController.swift */,
+				D87BD8411C67A66E001E347C /* Main.storyboard */,
+				D87BD8471C67A66E001E347C /* Assets.xcassets */,
+				D87BD8491C67A66E001E347C /* LaunchScreen.storyboard */,
+				D87BD84C1C67A66E001E347C /* Info.plist */,
+				D87BD8441C67A66E001E347C /* craps.xcdatamodeld */,
+			);
+			path = craps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87BD8391C67A66E001E347C /* craps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87BD84F1C67A66E001E347C /* Build configuration list for PBXNativeTarget "craps" */;
+			buildPhases = (
+				D87BD8361C67A66E001E347C /* Sources */,
+				D87BD8371C67A66E001E347C /* Frameworks */,
+				D87BD8381C67A66E001E347C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = craps;
+			productName = craps;
+			productReference = D87BD83A1C67A66E001E347C /* craps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87BD8321C67A66D001E347C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.securecodetips;
+				TargetAttributes = {
+					D87BD8391C67A66E001E347C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D87BD8351C67A66D001E347C /* Build configuration list for PBXProject "craps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D87BD8311C67A66D001E347C;
+			productRefGroup = D87BD83B1C67A66E001E347C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87BD8391C67A66E001E347C /* craps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87BD8381C67A66E001E347C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87BD84B1C67A66E001E347C /* LaunchScreen.storyboard in Resources */,
+				D87BD8481C67A66E001E347C /* Assets.xcassets in Resources */,
+				D87BD8431C67A66E001E347C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87BD8361C67A66E001E347C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87BD8461C67A66E001E347C /* craps.xcdatamodeld in Sources */,
+				D87BD8401C67A66E001E347C /* ViewController.swift in Sources */,
+				D87BD83E1C67A66E001E347C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D87BD8411C67A66E001E347C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87BD8421C67A66E001E347C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D87BD8491C67A66E001E347C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87BD84A1C67A66E001E347C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D87BD84D1C67A66E001E347C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D87BD84E1C67A66E001E347C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D87BD8501C67A66E001E347C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = craps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = securecodetips.craps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D87BD8511C67A66E001E347C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = craps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = securecodetips.craps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87BD8351C67A66D001E347C /* Build configuration list for PBXProject "craps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87BD84D1C67A66E001E347C /* Debug */,
+				D87BD84E1C67A66E001E347C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87BD84F1C67A66E001E347C /* Build configuration list for PBXNativeTarget "craps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87BD8501C67A66E001E347C /* Debug */,
+				D87BD8511C67A66E001E347C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D87BD8441C67A66E001E347C /* craps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D87BD8451C67A66E001E347C /* craps.xcdatamodel */,
+			);
+			currentVersion = D87BD8451C67A66E001E347C /* craps.xcdatamodel */;
+			path = craps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D87BD8321C67A66D001E347C /* Project object */;
+}
