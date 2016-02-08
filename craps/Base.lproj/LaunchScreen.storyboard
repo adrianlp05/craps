@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +14,53 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoCraps.png" translatesAutoresizingMaskIntoConstraints="NO" id="CTp-dq-ZnS">
+                                <rect key="frame" x="40" y="105" width="240" height="254"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="29P-Ys-GVJ"/>
+                                    <constraint firstAttribute="height" constant="254" id="CMX-nn-vvz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los lenguas de mulo de Hialeah. Copyright 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ry-MB-VEc">
+                                <rect key="frame" x="-31" y="440" width="383" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="383" id="A3Q-wT-onn"/>
+                                    <constraint firstAttribute="height" constant="21" id="mmA-BU-gS0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="10"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DcB-KT-1IH">
+                                <rect key="frame" x="109" y="440" width="102" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="9R3-MQ-qk8"/>
+                                    <constraint firstAttribute="height" constant="84" id="vQP-Ed-Tar"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.9719542873" blue="0.2300147069" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DcB-KT-1IH" firstAttribute="top" secondItem="CTp-dq-ZnS" secondAttribute="bottom" constant="81" id="65C-HE-mRw"/>
+                            <constraint firstItem="7ry-MB-VEc" firstAttribute="top" secondItem="CTp-dq-ZnS" secondAttribute="bottom" constant="81" id="6SI-So-jlM"/>
+                            <constraint firstItem="DcB-KT-1IH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6ez-Yd-PxV"/>
+                            <constraint firstItem="CTp-dq-ZnS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="B4g-IK-21f"/>
+                            <constraint firstItem="CTp-dq-ZnS" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="85" id="R5B-3A-SER"/>
+                            <constraint firstItem="7ry-MB-VEc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UFD-J4-axv"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="274" y="373"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo.jpg" width="900" height="900"/>
+        <image name="logoCraps.png" width="211" height="254"/>
+    </resources>
 </document>
