@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -34,10 +34,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eI6-VV-pCE">
                                 <rect key="frame" x="153" y="174" width="64" height="61"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEC-q7-jIs">
+                                <rect key="frame" x="0.0" y="0.0" width="93" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="7Yn-i6-MRk"/>
+                                    <constraint firstAttribute="height" constant="30" id="vaH-Yx-qOa"/>
+                                </constraints>
+                                <state key="normal" title="game's rules">
+                                    <color key="titleColor" red="0.82442247869999996" green="0.2560155154" blue="0.49756983960000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2k0-6v-Irw" kind="show" id="5WU-5m-MDR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="cEC-q7-jIs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tvo-aw-a8V"/>
                             <constraint firstItem="Lwb-y8-Wc0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="345" id="eSB-dU-NND"/>
+                            <constraint firstItem="cEC-q7-jIs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="goj-qg-9G9"/>
                             <constraint firstItem="Lwb-y8-Wc0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jeQ-SJ-62G"/>
                         </constraints>
                     </view>
@@ -49,7 +64,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="361" y="395"/>
+            <point key="canvasLocation" x="223" y="404"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fic-ia-p3R">
+            <objects>
+                <viewController id="2k0-6v-Irw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tGh-YD-jcL"/>
+                        <viewControllerLayoutGuide type="bottom" id="wYj-NV-EuJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bZY-dM-Z3y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rules of the games. hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh Mmmmmmmmmmmmmmmmmmmmmm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C37-jv-Xzs">
+                                <rect key="frame" x="42" y="84" width="236" height="332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.152822245" green="0.96052320079999998" blue="0.89330520550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EU-Ub-M8q">
+                                <rect key="frame" x="133" y="12" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="UzV-eG-cru" kind="unwind" unwindAction="unwindToMainMenue:" id="P8h-Pq-Zew"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.9719542873" blue="0.2300147069" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mAD-dM-Jmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UzV-eG-cru" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="595" y="386"/>
         </scene>
     </scenes>
     <resources>
